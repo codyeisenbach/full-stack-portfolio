@@ -35,3 +35,10 @@
 .row > img {
   margin-right: 15px;
 }
+
+@media only screen and (max-width: 768px) {
+  .stackable.grid:before {
+    width: 100%;
+    left: 0em;
+  }
+}
